@@ -13,7 +13,7 @@ import cloud.projetS5.model.Token;
 public class TokenController {
     private final String nomToken = "myToken";
 
-    @PostMapping("/test")
+    @GetMapping("/test")
     public Reponse<String> login() {
         Reponse<String> ans = new Reponse<>();
         try {
